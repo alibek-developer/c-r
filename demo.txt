@@ -1,0 +1,61 @@
+CRM/
+├─ .cursor/
+│  └─ settings.json
+├─ .qodo/
+│  ├─ agents/
+│  └─ workflows/
+├─ app/
+│  ├─ (auth)/
+│  │  └─ login/
+│  │     └─ page.tsx
+│  ├─ (super-admin)/
+│  │  ├─ super-admin/
+│  │  │  └─ page.tsx
+│  │  └─ layout.tsx
+│  ├─ (tenant)/
+│  │  └─ [subdomain]/
+│  │     ├─ catalog/
+│  │     │  └─ page.tsx
+│  │     ├─ dashboard/
+│  │     │  └─ page.tsx
+│  │     ├─ inventory/
+│  │     │  └─ page.tsx
+│  │     ├─ team/
+│  │     │  └─ page.tsx
+│  │     ├─ unified-inbox/
+│  │     │  └─ page.tsx
+│  │     ├─ layout.tsx
+│  │     └─ page.tsx
+│  ├─ api/
+│  │  └─ webhooks/
+│  │     └─ telegram/
+│  │        └─ route.ts
+│  ├─ globals.css
+│  ├─ layout.tsx
+│  └─ page.tsx
+├─ components/
+│  ├─ shared/
+│  └─ ui/
+│     ├─ button.tsx
+│     └─ card.tsx
+├─ lib/
+│  ├─ actions/
+│  │  └─ auth.ts
+│  ├─ supabase/
+│  │  ├─ client.ts
+│  │  ├─ middleware.ts
+│  │  └─ server.ts
+│  └─ utils.ts
+├─ types/
+│  └─ database.types.ts
+├─ components.json
+├─ demo.txt
+├─ middleware.ts
+├─ next-env.d.ts
+├─ next.config.ts
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.mjs
+├─ tailwind.config.ts
+├─ tsconfig.json
+└─ tsconfig.tsbuildinfo
